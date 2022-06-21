@@ -1,6 +1,6 @@
 import tw, { styled } from 'twin.macro';
 
-const StyledButton = styled.button(({ variant, size, inactive }) => [
+const StyledButton = styled.button(({ variant='primary', size='large', inactive=false }) => [
 	variant === 'primary' &&
 	tw`
         rounded
