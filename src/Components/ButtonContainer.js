@@ -6,7 +6,7 @@ const ButtonContainer = () => {
   return (
     <div className="border-dashed border-2 border-adp-red p-4 w-1/3 m-4">
 
-        {/* Start of Primary Buttons */}
+        {/* Start of Secondary Buttons */}
 
         <h2 className='ml-3 mb-2 text-xl font-bold'>Primary Buttons</h2>
             <div className="m-4 mb-8">

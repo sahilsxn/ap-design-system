@@ -10,7 +10,6 @@ const StyledButton = styled.button(({ variant, size, inactive }) => [
         hover:shadow-lg
         text-white   
         bg-adp-red
-        inline-block
         m-2
     `,
 	variant === 'secondary' &&
@@ -62,6 +61,15 @@ const StyledButton = styled.button(({ variant, size, inactive }) => [
         border
         border-adp-red-inactive
         text-adp-red-inactive
+        cursor-not-allowed
+        hover:shadow-none
+    `,
+    variant === 'tertiary' && inactive && 
+    tw`
+        bg-transparent
+        border
+        border-[#999999]
+        text-[#999999]
         cursor-not-allowed
         hover:shadow-none
     `,
