@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button, IconButton } from './Button';
-import { FaBell, FaCaretDown } from 'react-icons/fa';
+import { FaBell, FaDownload, FaCaretDown } from 'react-icons/fa';
 
 const ButtonContainer = () => {
   return (
     <div className="border-dashed border-2 border-adp-red p-4 w-1/3 m-4">
 
-        {/* Start of Secondary Buttons */}
+        {/* Start of Primary Buttons */}
 
         <h2 className='ml-3 mb-2 text-xl font-bold'>Primary Buttons</h2>
             <div className="m-4 mb-8">
@@ -25,7 +25,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown/>
+                                <FaDownload/>
                             </span>
                     </div>
                 </Button>
@@ -33,14 +33,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown/>
+                                <FaDownload/>
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="primary" size="large">            
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                                <FaCaretDown/>
+                                <FaDownload/>
                         </span>
                             Label Text
                     </div>
@@ -48,7 +48,7 @@ const ButtonContainer = () => {
                 <Button variant="primary" size="large" inactive>            
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown/>
+                            <FaDownload/>
                         </span>
                             Label Text Inactive
                     </div>
@@ -81,7 +81,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button>
@@ -89,14 +89,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="primary" size="small">
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>    
                             Label Text
                     </div>
@@ -104,7 +104,7 @@ const ButtonContainer = () => {
                 <Button variant="primary" size="small" inactive>
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text Inactive
                     </div>
@@ -140,7 +140,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button>
@@ -148,14 +148,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="secondary" size="large">
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text
                     </div>
@@ -163,7 +163,7 @@ const ButtonContainer = () => {
                 <Button variant="secondary" size="large" inactive>
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text Inactive
                     </div>
@@ -196,7 +196,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button>
@@ -204,14 +204,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="secondary" size="small">
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text
                     </div>
@@ -219,7 +219,7 @@ const ButtonContainer = () => {
                 <Button variant="secondary" size="small" inactive>
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text Inactive
                     </div>
@@ -255,7 +255,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button>
@@ -263,14 +263,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="tertiary" size="large">
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text
                     </div>
@@ -278,7 +278,7 @@ const ButtonContainer = () => {
                 <Button variant="tertiary" size="large" inactive>
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text Inactive
                     </div>
@@ -311,7 +311,7 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button>
@@ -319,14 +319,14 @@ const ButtonContainer = () => {
                     <div className="flex">
                         Label Text Inactive
                             <span className="mt-1 ml-2">
-                                <FaCaretDown />
+                                <FaDownload />
                             </span>
                     </div>
                 </Button> <br/>
                 <Button variant="tertiary" size="small">
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text
                     </div>
@@ -334,7 +334,7 @@ const ButtonContainer = () => {
                 <Button variant="tertiary" size="small" inactive>
                     <div className="flex">
                         <span className="mt-1 mr-2">
-                            <FaCaretDown />
+                            <FaDownload />
                         </span>
                             Label Text Inactive
                     </div>
