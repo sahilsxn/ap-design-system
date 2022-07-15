@@ -5,10 +5,13 @@ import GreysContainer from './Components/Greys/GreysContainer'
 const App = () => {
 
   return (
-    <div className='flex flex-row'>
-      <ButtonContainer/>
-      <InputContainer/>
-      <GreysContainer/>
+    <div style={{display:'flex', flexDirection:'column'}}>
+      <h1 className='text-3xl font-bold m-4 mb-0'>AP Design System 1.0</h1>
+      <div className='flex flex-row'>
+        <ButtonContainer/>
+        <InputContainer/>
+        <GreysContainer/>
+      </div>
     </div>
   )
 }
